@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "cs50.h": "c",
+        "float.h": "c",
+        "stdio.h": "c",
+        "stdbool.h": "c"
+    }
+}
