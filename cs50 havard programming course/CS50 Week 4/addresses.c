@@ -6,4 +6,4 @@ int main(void)
     //creating a variable Pointer
     int *p = &n;
     printf("%p/n",&n);
-}
+} 
