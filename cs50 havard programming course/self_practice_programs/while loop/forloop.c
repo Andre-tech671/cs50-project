@@ -16,14 +16,34 @@ int main(){
     // return 0;
 
     //nested for loop to print a pattern
-    int i, j;
+    // int i, j;
 
-    for(i=1; i<2; i++){
-        printf("Outer loop iteration: %d\n", i);    
+    // for(i=1; i<2; i++){
+    //     printf("Outer loop iteration: %d\n", i);    
 
-        for(j=1; j<4; j++){
-            printf("  Inner loop iteration: %d\n", j);
+    //     for(j=1; j<4; j++){
+    //         printf("  Inner loop iteration: %d\n", j);
+    //     }
+    // }
+
+    // loop break
+    // int i;
+    // for(i=1; i<=10; i++){
+    //     if(i == 5){
+    //         break;
+    //     }
+    //     printf("%d\n", i);
+    // }
+    // return 0;
+
+    // loop continue
+    int i;
+    for(i=1; i<=10; i++){
+        if(i == 5){
+            continue;
         }
+        printf("%d\n", i);
     }
-    
+    return 0;
 }
+
